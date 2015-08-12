@@ -38,6 +38,7 @@ self.addEventListener("install", (ev) => {
 
 
 self.addEventListener("fetch", (ev) => {
+  console.log("fetch event!", ev)
   var lookInCacheTask = async(function*() {
     const response = yield caches.match(ev.request)
     // Cache hit - return response
