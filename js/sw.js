@@ -4,26 +4,26 @@ importScripts("async.js");
 
 const CACHE_NAME = "newtab-v2";
 const urlToCache = [
-  "/css/newTab.css",
-  "/css/newTab.inc.css",
-  "js/async.js",
-  "/js/cells.js",
-  "/js/customize.js",
-  "/js/drag.js",
-  "/js/dragDataHelper.js",
-  "/js/drop.js",
-  "/js/dropPreview.js",
-  "/js/dropTargetShim.js",
-  "/js/grid.js",
-  "/js/newTab.js",
-  "/js/page.js",
-  "/js/rect.js",
-  "/js/sites.js",
-  "/js/transformations.js",
-  "/js/undo.js",
-  "/js/updater.js",
-  "/locale/newTab.json",
-  "/newTab.html"
+  "../css/newTab.css",
+  "../css/newTab.inc.css",
+  "../js/async.js",
+  "../js/cells.js",
+  "../js/customize.js",
+  "../js/drag.js",
+  "../js/dragDataHelper.js",
+  "../js/drop.js",
+  "../js/dropPreview.js",
+  "../js/dropTargetShim.js",
+  "../js/grid.js",
+  "../js/newTab.js",
+  "../js/page.js",
+  "../js/rect.js",
+  "../js/sites.js",
+  "../js/transformations.js",
+  "../js/undo.js",
+  "../js/updater.js",
+  "../locale/newTab.json",
+  "../newTab.html"
 ];
 
 self.addEventListener("install", (ev) => {
